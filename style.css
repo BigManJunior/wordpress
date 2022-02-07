@@ -1,0 +1,58 @@
+/*!
+Theme Name: Dr Rojat
+Theme URI: #
+Author: SP DEV
+Author URI: 
+Description: 
+Version: 1.0.0
+License URI: LICENSE
+Text Domain: rojat  */
+
+
+/* Contact form 7 */
+
+.wpcf7-form br {
+    display: none;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+    color: #555;
+    border: none;
+    text-align: center;
+    margin: 0;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output {
+    color: #555;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output {
+    border: none;
+    padding-top: 0;
+    margin-top: 0;
+    line-height: 22px;
+    text-align: center;
+}
+
+.wpcf7 form.failed .wpcf7-response-output,
+.wpcf7 form.aborted .wpcf7-response-output {
+    border: none;
+    padding-top: 0;
+    margin-top: 0;
+    line-height: 22px;
+    text-align: center;
+    color: #555;
+}
+
+.wpcf7-not-valid-tip {
+    white-space: nowrap;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.modal-close:hover {
+    text-decoration: underline;
+}
+
